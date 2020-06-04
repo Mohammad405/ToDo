@@ -1,0 +1,28 @@
+#main-footer {
+    height: 100px;
+    background-color: rgb(139, 224, 224);
+    border-top: 5px dashed rgb(63, 87, 87);
+    text-align: center;
+}
+
+#main-footer p {
+    margin: 10px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#main-footer ul {
+    list-style: none;
+}
+
+#main-footer li {
+    display: inline-block;
+    border-left: 2px solid black;
+}
+
+#main-footer .f-img {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
