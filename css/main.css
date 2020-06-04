@@ -7,8 +7,48 @@
 
 body{
     width: 100%;
+    background-color: rgb(105, 146, 134, .5);
 }
 
 .wrapper {
+    width: 80%;
+    margin: 0 auto;
     min-height: calc(100vh - 270px);
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+#list ul{
+    list-style: none;
+}
+
+#list li {
+    width: 80%;
+    background-color: rgb(182, 180, 173);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+
+    text-align: center;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#list #item {
+    display: block;
+    width: 30%;
+    height: 30px;
+    margin: 35px;
+    background-color: whitesmoke;
+}
+
+#list #bt {
+    display: block;
+    width: 30%;
+    height: 40px;
+    margin: 20px 35px;
+    background-color: rgb(11, 136, 63);
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
 }
