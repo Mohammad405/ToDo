@@ -1,0 +1,25 @@
+#main-header {
+    background-color: rgb(139, 224, 224);
+    border-bottom: 5px dashed rgb(63, 87, 87);
+    text-align: center;
+}
+
+
+.shadow { 
+    color:rgb(0, 0, 0); 
+    font: bold 52px Helvetica, Arial, Sans-Serif;
+    text-shadow: 1px 1px #8d8b8b, 
+                 2px 2px #999390, 
+                 3px 3px #979391;
+ }
+ .shadow:hover {
+    position: relative; 
+    top: -3px; 
+    left: -3px; 
+    text-shadow: 1px 1px #e2dedd, 
+                 2px 2px #cfcdcc, 
+                 3px 3px #b9b6b4, 
+                 4px 4px #9b9897, 
+                 5px 5px #999694, 
+                 6px 6px #b1aeac;
+ }
