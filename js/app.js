@@ -4,9 +4,12 @@ const addButton = document.querySelector('#bt');
 
 const ul = document.querySelector('#list ul');
 
+
+// Add <li> element with exit
+
 addButton.addEventListener('click', () => {
     let li = document.createElement('li');
-    let sp = del();
+    let sp = addImg();
     li.textContent = addItem.value;
 
     if(addItem.value === ''){
@@ -22,7 +25,7 @@ addButton.addEventListener('click', () => {
     addItem.value = '';
 });
 
-const del = () =>{
+const addImg = () =>{
     let span = document.createElement('span');
     let img = document.createElement('img');
     img.setAttribute('src',"img/close.svg");
