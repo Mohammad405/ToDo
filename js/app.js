@@ -4,6 +4,8 @@ const addButton = document.querySelector('#bt');
 
 const ul = document.querySelector('#list ul');
 
+const count = document.querySelector('#count');
+
 
 // Add <li> element with exit
 
@@ -46,3 +48,7 @@ const addImg = () =>{
     span.appendChild(img);
     return span;
 }
+
+window.setInterval(function(){
+    count.textContent = ul.children.length;
+  }, );
