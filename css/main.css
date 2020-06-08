@@ -70,22 +70,25 @@ body{
     cursor: pointer;
 } 
 
-@media( max-width: 900px){
-    .wrapper{
+
+@media (min-width: 320px) and (max-width:600px) {
+    #list #bt {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #list #item {
+        width: 100%;
+        margin: 0 auto 10px;
+    }
+
+    #list ul{
         width: 100%;
     }
-}
-
-@media (max-width: 650px){
 
     #list li {
-       width: 90%;
-    }
-    #list #item {
-        width: 90%;
+        width: 100%;
+        margin-left: -40px;
     }
 
-    #list #bt{
-        width: 90%;
-    }
-}
+  }
