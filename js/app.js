@@ -19,6 +19,7 @@ addButton.addEventListener('click', () => {
     }else{
         addItem.classList.remove('red');
         li.appendChild(sp);
+        li.classList.add('b-shadow');
         ul.appendChild(li);
         addItem.value = '';
     }
