@@ -15,7 +15,7 @@ addButton.addEventListener('click', () => {
     if(addItem.value === ''){
         addItem.classList.add('red');
         alert("Try agian");
-       // ul.removeChild(li);
+       
     }else{
         addItem.classList.remove('red');
         li.appendChild(sp);
