@@ -15,12 +15,16 @@ addButton.addEventListener('click', () => {
     if(addItem.value === ''){
         addItem.classList.add('red');
         alert("Try agian");
-       
+
     }else{
-        addItem.classList.remove('red');
-        li.appendChild(sp);
-        li.classList.add('b-shadow');
-        ul.appendChild(li);
+       if(addItem.value.length > 50){
+           let chars = addItem.value.slice(0,45);
+           li.textContent = chars;
+       }
+       addItem.classList.remove('red');
+       li.appendChild(sp);
+       li.classList.add('b-shadow');
+       ul.appendChild(li);
         addItem.value = '';
     }
   
