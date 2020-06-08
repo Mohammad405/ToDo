@@ -69,3 +69,23 @@ body{
     height: 25px;
     cursor: pointer;
 } 
+
+@media( max-width: 900px){
+    .wrapper{
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px){
+
+    #list li {
+       width: 90%;
+    }
+    #list #item {
+        width: 90%;
+    }
+
+    #list #bt{
+        width: 90%;
+    }
+}
