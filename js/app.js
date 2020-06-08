@@ -15,22 +15,29 @@ addButton.addEventListener('click', () => {
     if(addItem.value === ''){
         addItem.classList.add('red');
         alert("Try agian");
-        li.document.removeChild();
+       // ul.removeChild(li);
     }else{
         addItem.classList.remove('red');
+        li.appendChild(sp);
+        ul.appendChild(li);
+        addItem.value = '';
     }
-
-    li.appendChild(sp);
-    ul.appendChild(li);
-    addItem.value = '';
+  
 });
 
 const addImg = () =>{
     let span = document.createElement('span');
     let img = document.createElement('img');
     img.setAttribute('src',"img/close.svg");
-    img.setAttribute('alt',"exit icon");
+    img.setAttribute('alt',"remove icon");
     img.classList.add('l-img')
+
+    // Delete item
+
+    img.addEventListener('click', (e) => {
+        let item = e.target.parentNode.parentNode;
+        item.parentNode.removeChild(item);
+    });
     span.appendChild(img);
     return span;
 }
