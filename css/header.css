@@ -17,8 +17,8 @@
 
 #count {
     width: 20px;
-    background-color: rgb(182, 180, 173);
-    border: 2px solid white;
+    background-color: rgb(151, 141, 108);
+    border: 2px solid rgb(43, 42, 42);
     border-radius: 5px;
     padding: 5px;
     margin-bottom: 10px ;
